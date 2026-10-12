@@ -50,7 +50,7 @@ _To be filled in._
 ```bash
 pip install -e ".[dev]"
 pytest
-bash scripts/run_all.sh          # full run, about 3 hours on a Kaggle T4
+bash scripts/run_all.sh          # full run, about 3 hours on a Kaggle T4 (or run notebooks/kaggle_run.ipynb)
 python -m hvt.report             # rebuilds results/table.md and results/accuracy.png
 ```
 
