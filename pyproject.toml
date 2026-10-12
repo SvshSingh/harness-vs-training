@@ -1,0 +1,15 @@
+[project]
+name = "harness-vs-training"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["torch", "transformers>=4.56", "peft>=0.13", "accelerate", "matplotlib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["hvt"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
